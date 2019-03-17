@@ -1,0 +1,17 @@
+{
+  "name": "aprs-is-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node .\\dist\\app"
+  },
+  "author": "afairhurst",
+  "license": "MIT",
+  "dependencies": {
+    "js-aprs-fap": "git://github.com/KD0NKS/js-aprs-fap.git",
+    "js-aprs-is": "git://github.com/KD0NKS/js-aprs-is.git"
+  }
+}
