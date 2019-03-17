@@ -3,7 +3,7 @@ import { aprsParser } from 'js-aprs-fap';
 
 const CALLSIGN = 'NOCALL';
 const PASSCODE = -1;
-const APRSSERVER = 'central.aprs2.net';
+const APRSSERVER = 'rotate.aprs2.net';
 const PORTNUMBER = 14580;
 const FILTER = 'r/39.00/-91.00/1000';
 
