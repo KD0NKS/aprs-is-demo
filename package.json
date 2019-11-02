@@ -13,5 +13,8 @@
   "dependencies": {
     "js-aprs-fap": "git://github.com/KD0NKS/js-aprs-fap.git",
     "js-aprs-is": "git://github.com/KD0NKS/js-aprs-is.git"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.4"
   }
 }
