@@ -7,6 +7,8 @@ node_js:
 
 cache: npm
 before_script:
+- pwd
+- ls
 - npm run setup
 - .\build.sh
 - npm run build
