@@ -8,5 +8,5 @@ node_js:
 cache: npm
 before_script:
 - npm run setup
-- build.sh
+- .\build.sh
 - npm run build
