@@ -1,4 +1,4 @@
-import ISSocket from 'js-aprs-is';
+import { ISSocket } from 'js-aprs-is';
 import { aprsParser } from 'js-aprs-fap';
 
 const CALLSIGN = 'NOCALL';
@@ -12,7 +12,7 @@ connection.connect();
 
 connection.on('packet', (data: string) => {
     let parser = new aprsParser();
-    
+
     if(data.charAt(0) == '#') {
         connection.sendLine(connection.userLogin)
     } else {
