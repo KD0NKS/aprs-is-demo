@@ -4,9 +4,11 @@
   "description": "",
   "main": "./dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "tsc && node .\\dist\\app"
+    "setup": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node .\\dist\\app",
+    "tsc": "./node_modules/.bin/tsc"
   },
   "author": "afairhurst",
   "license": "MIT",
