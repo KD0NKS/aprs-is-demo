@@ -1,8 +1,8 @@
 #!/bin/sh
-npm install;
-cd ../js-aprs-fap;
-npm install;
+cd node_modules;
+cd js-aprs-fap;
+npm run setup;
 npm run build;
 cd ../js-aprs-is;
-npm run install;
+npm run setup;
 npm run build;
