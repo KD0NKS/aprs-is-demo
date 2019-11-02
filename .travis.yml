@@ -11,4 +11,6 @@ before_script:
 - ls
 - npm run setup
 - ./build.sh
+script:
 - npm run build
+- echo "Success!"
