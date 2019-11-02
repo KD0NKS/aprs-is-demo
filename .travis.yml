@@ -6,11 +6,12 @@ node_js:
 - "12"
 
 cache: npm
+before_install:
+- npm install -g greenkeeper-lockfile
 before_script:
-- pwd
-- ls
 - npm run setup
 - ./build.sh
 script:
 - npm run build
 - echo "Success!"
+after_script: greenkeeper-lockfile-upload
