@@ -23,21 +23,6 @@ Install dependencies.
 npm run setup
 ```
 
-Build dependencies
-```
-cd .\node_modules\js-aprs-is;
-npm run setup;
-npm run build;
-```
-```
-cd ..\js-aprs-fap;
-npm run setup;
-npm run build;
-```
-```
-cd ..\..\
-```
-
 Run the test.
 ```
 npm start
@@ -47,11 +32,6 @@ npm start
 Install dependencies.
 ```
 npm run setup
-```
-
-Build dependencies
-```
-./build.sh
 ```
 
 Run the test.
