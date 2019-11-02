@@ -1,3 +1,8 @@
+# aprs-is-demo [![Build Status](https://travis-ci.org/KD0NKS/aprs-is-demo.svg?branch=master)](https://travis-ci.org/KD0NKS/aprs-is-demo)
+APRS is a registered trademark Bob Bruninga, WB4APR.
+
+This is a demo of using the js-aprs-is and js-aprs-fap libraries for a simple APRS client.
+
 # Instructions
 ## Configure
 Edit app.ts and set:
@@ -10,26 +15,42 @@ Edit app.ts and set:
 For more info see: http://www.aprs-is.net/aprsservers.aspx
 
 ## Build & Run
-Tested in Windows PowerShell (Windows 10)
+### Tested in Windows PowerShell (Windows 10)
 
 Install dependencies.
 ```
-npm install
+npm run setup
 ```
 
 Build dependencies
 ```
 cd .\node_modules\js-aprs-is;
-npm install;
+npm run setup;
 npm run build;
 ```
 ```
 cd ..\js-aprs-fap;
-npm install;
+npm run setup;
 npm run build;
 ```
 ```
 cd ..\..\
+```
+
+Run the test.
+```
+npm start
+```
+
+### Linux
+Install dependencies.
+```
+npm run setup
+```
+
+Build dependencies
+```
+./build.sh
 ```
 
 Run the test.

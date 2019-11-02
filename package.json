@@ -2,16 +2,21 @@
   "name": "aprs-is-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "tsc && node .\\dist\\app"
+    "setup": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/app",
+    "tsc": "./node_modules/.bin/tsc"
   },
   "author": "afairhurst",
   "license": "MIT",
   "dependencies": {
     "js-aprs-fap": "git://github.com/KD0NKS/js-aprs-fap.git",
     "js-aprs-is": "git://github.com/KD0NKS/js-aprs-is.git"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.4"
   }
 }
