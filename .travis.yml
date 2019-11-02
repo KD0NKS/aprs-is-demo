@@ -10,5 +10,5 @@ before_script:
 - pwd
 - ls
 - npm run setup
-- .\build.sh
+- build.sh
 - npm run build
