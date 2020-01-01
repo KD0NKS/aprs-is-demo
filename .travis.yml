@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- "stable"
+- "10"
+- "12"
+- "13"
+
+cache: npm
+before_install:
+- npm install -g greenkeeper-lockfile
+before_script:
+- npm run setup
+script:
+- npm run build
+- echo "Success!"
+after_script: greenkeeper-lockfile-upload

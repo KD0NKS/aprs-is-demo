@@ -1,4 +1,4 @@
-import { ISSocket} from 'js-aprs-is';
+import { ISSocket } from 'js-aprs-is';
 import { aprsParser } from 'js-aprs-fap';
 
 const CALLSIGN = 'NOCALL';

@@ -1,4 +1,10 @@
+# aprs-is-demo [![Build Status](https://travis-ci.org/KD0NKS/aprs-is-demo.svg?branch=master)](https://travis-ci.org/KD0NKS/aprs-is-demo) [![Greenkeeper badge](https://badges.greenkeeper.io/KD0NKS/aprs-is-demo.svg)](https://greenkeeper.io/)
+APRS is a registered trademark Bob Bruninga, WB4APR.
+
+This is a demo of using the js-aprs-is and js-aprs-fap libraries for a simple APRS client.
+
 # Instructions
+
 ## Configure
 Edit app.ts and set:
 * CALLSIGN
@@ -10,26 +16,22 @@ Edit app.ts and set:
 For more info see: http://www.aprs-is.net/aprsservers.aspx
 
 ## Build & Run
-Tested in Windows PowerShell (Windows 10)
+### Tested in Windows PowerShell (Windows 10)
 
 Install dependencies.
 ```
-npm install
+npm run setup
 ```
 
-Build dependencies
+Run the test.
 ```
-cd .\node_modules\js-aprs-is;
-npm install;
-npm run build;
+npm start
 ```
+
+### Linux
+Install dependencies.
 ```
-cd ..\js-aprs-fap;
-npm install;
-npm run build;
-```
-```
-cd ..\..\
+npm run setup
 ```
 
 Run the test.
