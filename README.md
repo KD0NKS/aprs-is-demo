@@ -1,4 +1,4 @@
-# aprs-is-demo [![Build Status](https://travis-ci.org/KD0NKS/aprs-is-demo.svg?branch=master)](https://travis-ci.org/KD0NKS/aprs-is-demo) [![Greenkeeper badge](https://badges.greenkeeper.io/KD0NKS/aprs-is-demo.svg)](https://greenkeeper.io/)
+# aprs-is-demo [![Build Status](https://travis-ci.org/KD0NKS/aprs-is-demo.svg?branch=master)](https://travis-ci.org/KD0NKS/aprs-is-demo) 
 APRS is a registered trademark Bob Bruninga, WB4APR.
 
 This is a demo of using the js-aprs-is and js-aprs-fap libraries for a simple APRS client.
