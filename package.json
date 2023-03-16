@@ -17,6 +17,6 @@
     "js-aprs-is": "^1.0.4"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^5.0.2"
   }
 }
