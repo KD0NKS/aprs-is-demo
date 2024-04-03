@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "js-aprs-fap": "^1.0.1",
-    "js-aprs-is": "^1.0.4"
+    "js-aprs-is": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^4.0.2"
