@@ -13,10 +13,12 @@
   "author": "afairhurst",
   "license": "MIT",
   "dependencies": {
-    "js-aprs-fap": "^1.0.1",
-    "js-aprs-is": "^1.0.4"
+    "js-aprs-fap": "^2.0.1",
+    "js-aprs-is": "^2.0.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.8.3"
   }
 }
