@@ -15,7 +15,7 @@
   "dependencies": {
     "js-aprs-fap": "^2.0.1",
     "js-aprs-is": "^2.0.1",
-    "uuid": "^11.1.0"
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/uuid": "^10.0.0",
